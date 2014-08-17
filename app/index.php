@@ -293,7 +293,7 @@ echo "<option value=''>--PLEASE SELECT--</option>";
 <tr><td>Current Location: </td><td>
 <?php
 $ip = $_SERVER['REMOTE_ADDR'];
-$xml_loc = file_get_contents('http://api.ipinfodb.com/v3/ip-city/?key=42ee21e66c2b78656b6b8d29700ce86ef1d86f99e70d4297a8df87917d7e10dd&ip='.$ip);
+$xml_loc = file_get_contents('http://api.ipinfodb.com/v3/ip-city/?key=XXX&ip='.$ip);
 function xmldecode($txt)
 {
 	$txt2 = explode(";", $txt);
