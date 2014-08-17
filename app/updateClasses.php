@@ -10,8 +10,7 @@ $class6 = $_POST['class6'];
 $class7 = $_POST['class7'];
 $class8 = $_POST['class8'];
 #need more user data
-$userdata = file_get_contents("http://uci.karankanwar.me/app/userapi.php?un=".$username);
-$user = explode('@@@@@',$userdata);
+#blanked
 $name = $user[1];
 $sex = $user[2];
 $pic = $user[3];
